@@ -88,6 +88,15 @@
             color: #d14836;
         }
 
+        .nonunderline-link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .nonunderline-link:hover {
+            text-decoration: none;
+        }
+
         a {
             color: #d14836;
             text-decoration: none;
@@ -109,11 +118,11 @@
         <div class="wrapper">
             <div id="menubar">
                 <ul id="menulist">
-                    <li class="menuitem" onclick="reStyle(0)">Stylesheet 1</li>
-                    <li class="menuitem" onclick="reStyle(1)">Stylesheet 2</li>
-                    <li class="menuitem" onclick="reStyle(2)">Stylesheet 3</li>
-                    <li class="menuitem" onclick="reStyle(3)">Stylesheet 4</li>
-                    <li class="menuitem" onclick="noStyles()">No Stylesheet</li>
+                    <li class="menuitem"><a href="index.html" class="nonunderline-link">Stylesheet 1</a></li>
+                    <li class="menuitem"><a href="style2.html" class="nonunderline-link">Stylesheet 2</a></li>
+                    <li class="menuitem"><a href="#" class="nonunderline-link">Stylesheet 3</a></li>
+                    <li class="menuitem"><a href="#" class="nonunderline-link">Stylesheet 4</a></li>
+                    <li class="menuitem"><a href="nostyle.html" class="nonunderline-link">No Stylesheet</a></li>
                 </ul>
             </div>
 
